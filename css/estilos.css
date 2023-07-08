@@ -1,0 +1,129 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@700&display=swap');
+* {
+    margin: 0px;
+    padding: 0px;
+    background-color:antiquewhite;
+    font-family: 'Ubuntu', sans-serif;
+}
+
+#interfaz{
+    color: #EEEEEE;
+    text-align: center;
+   background-color: #222831;
+   border: 2px solid black;
+   padding: 20px;
+   margin: 10px;
+   text-shadow: 2px 3px 0px rgba(105, 105, 105, 0.795);
+}
+
+#temp{
+    background-color: #FF6969;
+    border: 2px solid black;
+    text-align: center;
+    display: inline-block;
+    margin: 10px;
+    margin-left: 10px;
+    margin-right: 5px;
+    padding: 20px;
+    width: 25%;
+    text-shadow: 1px 1px 0px dimgray;
+}
+#tempestado{
+    background-color: black;
+    border: 2px solid #FF6969;
+    color: #FF6969;
+    text-align: center;
+    display: inline-block;
+    margin: 10px;
+    margin-left: 10px;
+    margin-right: 5px;
+    padding: 20px;
+}
+
+#hum{
+    background-color: #B9E9FC;
+    border: 2px solid black;
+    text-align: center;
+    display: inline-block;
+    padding: 20px;
+    margin: 10px 5px;
+    margin-right: 0px;
+    width: 25%;
+    text-shadow: 1px 1px 0px dimgray;
+}
+#humestado{
+    background-color: black;
+    border: 2px solid #B9E9FC;
+    color: #B9E9FC;
+    text-align: center;
+    display: inline-block;
+    padding: 20px;
+    margin: 10px 5px;
+    margin-right: 0px;
+} 
+#gas{
+    background-color: #FFD3B0;
+    border: 2px solid black;
+    text-align: center;
+    display: inline;
+    padding: 20px;
+    margin: 10px 5px;
+    margin-right: 0px;
+    width: 25%;
+    display: inline-block;
+    text-shadow: 1px 1px 0px dimgray;
+} 
+#gasestado{
+    background-color: #05161A;
+    color: #FFD3B0;
+    border: 2px solid #FFD3B0;
+    text-align: center;
+    display: inline;
+    padding: 5px;
+    margin: 10px 5px;
+    margin-right: 0px;
+    display:inline-block;
+}
+#pir{
+    background-color: #99A98F;
+    border: 2px solid black;
+    text-align: center;
+    display: inline;
+    padding: 20px;
+    margin: 10px 5px;
+    margin-right: 0px;
+    width: 25%;
+    text-shadow: 1px 1px 0px dimgray;
+} 
+#pirestado{
+    background-color: #05161A;
+    color: #99A98F;
+    border: 2px solid #99A98F;
+    text-align: center;
+    display: inline;
+    padding: 5px;
+    margin: 10px 5px;
+    margin-right: 0px;
+    display: inline-block;
+}
+#ldr{
+    background-color: #FEFF86;
+    border: 2px solid black;
+    text-align: center;
+    display: inline;
+    padding: 20px;
+    margin: 10px 5px;
+    margin-right: 0px;
+    width: 25%;
+    text-shadow: 1px 1px 0px dimgray;
+} 
+#ldrestado{
+    background-color: #05161A;
+    color: #feff86;
+    border: 2px solid #FEFF86;
+    text-align: center;
+    display: inline-block;
+    padding: 5px;
+    margin: 10px 5px;
+    margin-right: 0px;
+}
